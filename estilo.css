@@ -9,8 +9,48 @@ h1 {
 	padding: 5px;
 }
 
+h2 {
+	background-color: #bd374d;
+	font-size: 25px;
+	color: white;
+	padding: 5px;
+	text-align:center;
+}
+
+h3 {
+	background-color: #bd374d;
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+}
+
+.box {
+	width:160px;
+	height:90px;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-left:5px;
+	margin-bottom:15px;
+	border:5px solid #E88A8A;
+}
+
+.box1 {
+	float:left;
+	width: 120px;
+}
+
+.box2 {
+	float:left;
+	width:160px;
+}
+
+.titulo {
+	padding-top:130px; /*border + margin + height*/
+	/*text-align:center;*/
+}
+
 #total {
-	width: 90%; /*960 px*/
+	width: 1080px; /*960 px*/
 	height: auto;
 	margin: auto;
 	padding: 10px;
@@ -62,8 +102,8 @@ h1 {
 
 #conteudo {
 	width: 100%;
-	min-height: 300px;
-	float: left;
+	min-height: 2000px;
+	/*float: left;*/
 	/*margin-top: 10px;*/
 	text-align: center;
 	background-color: #FFE0F0;
